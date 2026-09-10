@@ -204,6 +204,14 @@
     .e5-table .row-title a::after { content: '↗'; font-size: .7rem; font-weight: 400; }
     .e5-table .row-empty { color: var(--muted); font-style: italic; font-size: .75rem; }
     .comp-cell { text-align: center; color: #ccc; font-size: 1.1rem; vertical-align: middle; }
+    .comp-x {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 26px; height: 26px; border-radius: 50%;
+      background: var(--orange); color: #fff;
+      font-size: .8rem; font-weight: 700; text-decoration: none;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .comp-x:hover { transform: scale(1.2); box-shadow: 0 4px 12px rgba(247,92,3,.4); }
     .e5-legend { display: flex; gap: 1.2rem; margin-top: 1rem; flex-wrap: wrap; font-size: .75rem; color: var(--muted); font-family: var(--mono); align-items: center; }
     .e5-legend span { display: flex; align-items: center; gap: .4rem; }
 
@@ -444,21 +452,21 @@
             </td>
           </tr>
           <tr>
-            <td><div class="row-title"><a href="pptx/audit_patrimoine.pptx" target="_blank">préparation mise en place de zabbix</a></div></td>
+            <td><div class="row-title"><a href="pptx/préparation_zabbix.pptx" target="_blank">préparation mise en place de zabbix</a></div></td>
             <td class="comp-cell">•</td>
-            <td class="comp-cell">X</td>
+            <td class="comp-cell"><a href="pptx/préparation_zabbix.pptx" target="_blank" class="comp-x">✕</a></td>
             <td class="comp-cell">•</td>
-            <td class="comp-cell">X</td>
+            <td class="comp-cell"><a href="pptx/préparation_zabbix.pptx" target="_blank" class="comp-x">✕</a></td>
             <td class="comp-cell">•</td>
             <td class="comp-cell">•</td>
           </tr>
           <tr>
-            <td><div class="row-title"><a href="pptx/agent_ia_vocal.pptx" target="_blank">préparation de pc portable</a></div></td>
+            <td><div class="row-title"><a href="pptx/préparation_pc.pptx" target="_blank">préparation de pc portable</a></div></td>
             <td class="comp-cell">•</td>
-            <td class="comp-cell">X</td>
+            <td class="comp-cell"><a href="pptx/préparation_pc.pptx" target="_blank" class="comp-x">✕</a></td>
             <td class="comp-cell">•</td>
             <td class="comp-cell">•</td>
-            <td class="comp-cell">X</td>
+            <td class="comp-cell"><a href="pptx/préparation_pc.pptx" target="_blank" class="comp-x">✕</a></td>
             <td class="comp-cell">•</td>
           <!-- 2ÈME ANNÉE -->
           <tr>
